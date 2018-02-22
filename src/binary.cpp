@@ -3,7 +3,7 @@
 using std::cout;
 using std::cin;
 
-void ask()
+void Binary::ask()
 {
     cout << "Binary - decimal calculator\n"
          << "Select mode:\n"
@@ -15,19 +15,19 @@ void ask()
     process(mode);
 }
 
-void process(int mode)
+void Binary::process(int mode)
 {
     if (mode == 1)
     {
         long long int number {};
         cin >> number;
-        cout << Binary::to_decimal(number) << '\n';
+        cout << to_decimal(number) << '\n';
     }
     else
     {
         int number {};
         cin >> number;
-        cout << Binary::to_binary(number) << '\n';
+        cout << to_binary(number) << '\n';
     }
 }
 
