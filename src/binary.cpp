@@ -1,6 +1,7 @@
 #include "../include/binary.h"
 
 using std::cout;
+using std::cin;
 
 void ask()
 {
