@@ -12,8 +12,8 @@ int main()
     long long int number {};
     std::cin >> number;
     if (mode == 1)
-        std::cout << to_binary(number) << '\n';
+        std::cout << Binary::to_binary(number) << '\n';
     else
-        std::cout << to_decimal(number) << '\n';
+        std::cout << Binary::to_decimal(number) << '\n';
     return 0;
 }
