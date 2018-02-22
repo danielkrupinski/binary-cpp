@@ -9,4 +9,4 @@ namespace Binary {
     int to_decimal(long long int&);
 }
 
-#endif BINARY_H
+#endif

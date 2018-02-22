@@ -9,11 +9,18 @@ int main()
     int mode {};
     std::cin >> mode;
     std::cout << "Enter a number: ";
-    long long int number {};
-    std::cin >> number;
+
     if (mode == 1)
-        std::cout << Binary::to_binary(number) << '\n';
-    else
+    {
+        long long int number {};
+        std::cin >> number;
         std::cout << Binary::to_decimal(number) << '\n';
+    }
+    else
+    {
+        int number {};
+        std::cin >> number;
+        std::cout << Binary::to_binary(number) << '\n';
+    }
     return 0;
 }
