@@ -3,7 +3,7 @@
 long long int Binary::to_binary(int decimal)
 {
     long long int binary {};
-    int position {};
+    int position {1};
 
     while (decimal!=0)
     {
