@@ -16,5 +16,13 @@ long long int Binary::to_binary(int decimal)
 
 int Binary::to_decimal(long long int& binary)
 {
+    int decimal {}, position {1};
 
+    while (binary!=0)
+    {
+        decimal += binary%10*pow(2,position);
+        binary /= 10;
+        ++position;
+    }
+    return decimal;
 }
