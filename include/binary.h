@@ -2,6 +2,7 @@
 #define BINARY_H
 
 #include <iostream>
+#include <cmath>
 
 namespace Binary {
     long long int to_binary(int);
