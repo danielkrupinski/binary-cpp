@@ -8,8 +8,8 @@ long long int Binary::to_binary(int decimal)
     while (decimal!=0)
     {
         binary += (decimal%2)*position;
-        decimal/=2;
-        position*=10;
+        decimal /= 2;
+        position *= 10;
     }
     return binary;
 }
