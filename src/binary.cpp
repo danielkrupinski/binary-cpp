@@ -10,7 +10,7 @@ void ask()
          << "1. Binary to decimal\n"
          << "2. Decimal to binary\n";
     int mode {};
-    std::cin >> mode;
+    cin >> mode;
     cout << "Enter a number: ";
     process(mode);
 }
@@ -20,13 +20,13 @@ void process(int mode)
     if (mode == 1)
     {
         long long int number {};
-        std::cin >> number;
+        cin >> number;
         cout << Binary::to_decimal(number) << '\n';
     }
     else
     {
         int number {};
-        std::cin >> number;
+        scin >> number;
         cout << Binary::to_binary(number) << '\n';
     }
 }
