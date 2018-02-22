@@ -16,7 +16,7 @@ long long int Binary::to_binary(int decimal)
 
 int Binary::to_decimal(long long int& binary)
 {
-    int decimal {}, position {1};
+    int decimal {}, position {};
 
     while (binary!=0)
     {
