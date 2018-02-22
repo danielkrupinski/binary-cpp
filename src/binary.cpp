@@ -26,7 +26,7 @@ void process(int mode)
     else
     {
         int number {};
-        scin >> number;
+        cin >> number;
         cout << Binary::to_binary(number) << '\n';
     }
 }
