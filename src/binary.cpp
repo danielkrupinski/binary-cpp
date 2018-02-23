@@ -6,9 +6,9 @@ using std::cin;
 void Binary::ask()
 {
     cout << "Binary - decimal calculator\n"
-         << "Select mode:\n"
-         << "1. Binary to decimal\n"
-         << "2. Decimal to binary\n";
+            "Select mode:\n"
+            "1. Binary to decimal\n"
+            "2. Decimal to binary\n";
     int mode {};
     cin >> mode;
     cout << "Enter a number: ";
