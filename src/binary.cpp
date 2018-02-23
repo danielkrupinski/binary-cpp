@@ -45,7 +45,7 @@ long long int Binary::to_binary(int decimal)
     return binary;
 }
 
-int Binary::to_decimal(long long int& binary)
+int Binary::to_decimal(long long int binary)
 {
     int decimal {}, position {};
 
