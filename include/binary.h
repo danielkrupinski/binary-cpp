@@ -4,7 +4,7 @@
 #include <iostream>
 #include <cmath>
 
-namespace Binary {
+namespace binary {
     void input();
     void process(int);
     long long int to_binary(int);
