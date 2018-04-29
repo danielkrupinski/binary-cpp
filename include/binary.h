@@ -5,7 +5,7 @@
 #include <cmath>
 
 namespace Binary {
-    void ask();
+    void input();
     void process(int);
     long long int to_binary(int);
     int to_decimal(long long int);

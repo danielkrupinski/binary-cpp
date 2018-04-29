@@ -2,6 +2,6 @@
 
 int main()
 {
-    Binary::ask();
+    Binary::input();
     return 0;
 }
