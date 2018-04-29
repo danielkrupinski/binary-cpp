@@ -24,10 +24,14 @@ void binary::process(int mode)
         cin >> number;
         cout << to_decimal(number) << '\n';
     }
-    else {
+    else if (mode == 2) {
         int number {0};
         cin >> number;
         cout << to_binary(number) << '\n';
+    }
+    else {
+        cout << "Invalid mode!\n";
+        exit(1);
     }
 }
 
