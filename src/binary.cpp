@@ -13,7 +13,6 @@ void binary::input()
             "2. Decimal to binary\n";
     int mode {0};
     cin >> mode;
-    cout << "Enter a number: ";
     process(mode);
 }
 
@@ -21,11 +20,13 @@ void binary::process(int mode)
 {
     if (mode == 1) {
         long long int number {0};
+        cout << "Enter a number: ";
         cin >> number;
         cout << to_decimal(number) << '\n';
     }
     else if (mode == 2) {
         int number {0};
+        cout << "Enter a number: ";
         cin >> number;
         cout << to_binary(number) << '\n';
     }
